@@ -1,0 +1,15 @@
+Compile with:
+
+nvcc --shared --compiler-options '-fPIC' -o libxortimercuda.so cuda_functions.cu -I /usr/include/cuda -L /usr/lib/cuda/lib64 -lcudart
+
+
+
+
+❯ pwd
+/home/pimeson/Development/CPP/BytesXorCuda/cuda
+❯ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:`pwd`
+❯ echo $LD_LIBRARY_PATH
+:/home/pimeson/Development/CPP/BytesXorCuda/cuda
+
+~/Development/CPP/BytesXorCuda/cuda ❯  
+

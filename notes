@@ -1,0 +1,5 @@
+(on Ubuntu)
+sudo apt install libc++-dev
+/usr/bin/c++ -o xortimer main.cpp -I ./cuda -L ./cuda -lxortimercuda
+./xortimer
+
